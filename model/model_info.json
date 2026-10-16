@@ -1,0 +1,45 @@
+{
+  "nama_model": "Model C (MobileNetV2)",
+  "class_names": [
+    "airplane",
+    "automobile",
+    "bird",
+    "cat",
+    "deer",
+    "dog",
+    "frog",
+    "horse",
+    "ship",
+    "truck"
+  ],
+  "class_names_id": [
+    "pesawat",
+    "mobil",
+    "burung",
+    "kucing",
+    "rusa",
+    "anjing",
+    "katak",
+    "kuda",
+    "kapal",
+    "truk"
+  ],
+  "input_size": 32,
+  "akurasi_uji": 0.8801,
+  "f1_macro": 0.8794,
+  "parameter": 2270794,
+  "perbandingan": {
+    "Model A (Baseline)": 0.8072,
+    "Model B (Tuned CNN)": 0.8329,
+    "Model C (MobileNetV2)": 0.8801
+  },
+  "hiperparameter_terbaik_tuning": {
+    "filter_awal": 48,
+    "pakai_bn": false,
+    "dropout_conv": 0.2,
+    "dense_units": 256,
+    "dropout_dense": 0.3,
+    "learning_rate": 0.00072182541156161
+  },
+  "tensorflow_version": "2.21.0"
+}
